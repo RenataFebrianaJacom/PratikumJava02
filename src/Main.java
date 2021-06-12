@@ -1,3 +1,6 @@
+import java.net.SocketOption;
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         String namaDepan = "Renata";
@@ -11,5 +14,9 @@ public class Main {
         boolean Cantik = true;
 
         System.out.println(namaDepan + namaTengah + namaBelakang);
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString);
     }
 }
